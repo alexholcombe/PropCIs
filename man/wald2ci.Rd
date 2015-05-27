@@ -35,7 +35,7 @@ wald2ci(x1, n1, x2, n2, conf.level, adjust)
   }
 }
 \details{
-  If \code{adjust=AC} is chosen, the standard Wald interval is modified
+  If \code{adjust="AC"} is chosen rather than \code{adjust="Wald"}, the standard Wald interval is modified
   to the Agresti-Caffo adjusted CI (American Statistician, 2000)
 }
 \value{
